@@ -1,0 +1,50 @@
+body{margin:0;  
+    background-color: #C8CFFB
+    }
+
+.form{width:440px;height:525px;;background:rgb(255, 255, 255);border-radius:8px;
+    box-shadow:0 0 40px -10px #5c5c5c;margin:calc(50vh - 300px) auto;
+    padding:0px 30px;max-width:calc(100vw - 40px);box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;position:relative; }
+
+
+h2{margin:10px 0;padding-bottom:10px;width:320px;color:#000000;border-bottom:3px solid #78788c; font-size: 22px;}
+
+input{width:100%;padding:10px;box-sizing:border-box;background:none;outline:none;resize:none;
+    border:0;font-family:'Montserrat',sans-serif;transition:all .3s;border-bottom:2px solid #000000; font-size: 13px; color: rgb(0, 0, 0);}
+
+input:focus{border-bottom:2px solid #000000}
+
+p{content:attr(type);display:block;margin:28px 0 0;font-size:20px;color:#000000}
+
+p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#000000}
+
+button{float:right;padding:8px 12px;margin:8px 0 0;font-family:'Montserrat',sans-serif;
+    border:2px solid #78788c;background:0;color:#5a5a6e;cursor:pointer;transition:all .3s}
+
+button:hover{background:#78788c;color:#000000}
+
+
+span{margin:0 5px 0 15px}
+
+img{
+    width: 70px; position: relative; top: 50px; left: 330px;
+}
+a:link, a:visited {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        width: 350px;
+        display: inline-block; display: block; margin-right: auto; margin-left: auto;
+      }
+
+button:hover{background:#78788c; color:white}
+
+a{
+    text-decoration: none;
+    display: inline-block; display: block; margin-right: auto; margin-left: auto;
+    width: 100px;
+}
+
+.mensaje{
+    color: #000000; font-size: x-small;
+}
